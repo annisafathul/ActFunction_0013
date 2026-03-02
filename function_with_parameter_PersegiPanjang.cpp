@@ -11,7 +11,7 @@ void input()
     cin >> lebar;
 }
 
-int luaspersegi(int a, int b)
+int kelilingPersegi(int a, int b)
 {
-    return a * b;
+    return 2 * (a + b);
 }
